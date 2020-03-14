@@ -1,0 +1,7 @@
+.nav-wrapper {
+    padding: 0 2rem;
+}
+
+a.active {
+    background-color: #c96867;
+}
