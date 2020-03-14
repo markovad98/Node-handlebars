@@ -18,6 +18,10 @@
                     <div class="card-action">
                         <a href="/courses/{{ id }}/edit?allow=true">Редактировать курс</a>
                     </div>
+                    <form action="/card/add" method="POST">
+                        <input type="hidden" name="id" value="{{ id }}">
+                        <button type="submit" class="btn btn-primary">Купить курс</button>
+                    </form>
                 </div>
             </div>
         </div>

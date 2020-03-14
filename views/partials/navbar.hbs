@@ -19,6 +19,12 @@
             {{else}}
                 <li><a href="/add">add course</a></li>
             {{/if}}
+
+            {{#if isCard}}
+                <li><a class="active" href="/card">Card</a></li>
+            {{else}}
+                <li><a href="/card">Card</a></li>
+            {{/if}}
         </ul>
     </div>
 </nav>
